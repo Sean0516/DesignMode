@@ -7,7 +7,7 @@ package com.voicecyber.singleton;
  */
 public class SluggardPatternByLock {
     /**
-     * volatile 关键字可以禁止指令重排 ：可以确保instance = new SluggardType2()对应的指令不会重排序
+     * volatile 关键字可以禁止指令重排 ：可以确保sluggardPatternByLock = new SluggardPatternByLock()对应的指令不会重排序
      * 但是因为对volatile的操作都在Main Memory中，而Main Memory是被所有线程所共享的，
      * 这里的代价就是牺牲了性能，无法利用寄存器或Cache
      */

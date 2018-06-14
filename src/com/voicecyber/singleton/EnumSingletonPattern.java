@@ -4,6 +4,8 @@ package com.voicecyber.singleton;
  * Created by Sean on 2018/6/8.
  */
 
+import java.util.concurrent.*;
+
 /**
  * 使用每集实现线程安全的单例模式
  *

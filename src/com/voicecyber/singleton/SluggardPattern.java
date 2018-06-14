@@ -12,7 +12,7 @@ package com.voicecyber.singleton;
 public class SluggardPattern {
     private static SluggardPattern sluggardPattern=null;
     private SluggardPattern(){}
-    public static SluggardPattern getSluggardPattern(){
+    public  static  SluggardPattern getSluggardPattern(){
         if (sluggardPattern==null){
             sluggardPattern=new SluggardPattern();
         }
