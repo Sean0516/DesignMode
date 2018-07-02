@@ -8,9 +8,12 @@ package com.voicecyber.model;
 public class Test {
     public static void main(String[] args) {
         AbstractStudentModel highStudent=new HighStudent();
-        highStudent.run();
+        highStudent.setName("sean");
+        String run = highStudent.run();
+        System.out.println(run);
         System.out.println("____________________");
         AbstractStudentModel primaryStudent=new PrimaryStudent();
-        primaryStudent.run();
+        String run1 = primaryStudent.run();
+        System.out.println(run1);
     }
 }
