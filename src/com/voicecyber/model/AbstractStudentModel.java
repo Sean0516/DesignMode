@@ -2,7 +2,7 @@ package com.voicecyber.model;
 
 /**
  * Created by Sean on 2018/6/12
- *
+ * 模板方法
  * @author Sean
  */
 public abstract class AbstractStudentModel {

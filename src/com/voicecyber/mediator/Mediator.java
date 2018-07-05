@@ -2,7 +2,7 @@ package com.voicecyber.mediator;
 
 /**
  * Created by Sean on 2018/7/2
- *
+ *中介者模式
  * @author Sean
  */
 public abstract class Mediator {
