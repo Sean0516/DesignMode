@@ -1,6 +1,5 @@
 package com.voicecyber.abserver.observerbyjava;
 
-import java.lang.reflect.Proxy;
 
 /**
  * Created by Sean on 2018/7/10

@@ -10,9 +10,8 @@ public class Handler1 extends Handler {
     protected int getHandlerLevel() {
         return 1;
     }
-
     @Override
-    protected String getResponse(String request) {
-        return "handler1 say :"+request;
+    protected ExtServer getResponse(String request) {
+        return new ExtServer();
     }
 }

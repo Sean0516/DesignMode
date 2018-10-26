@@ -5,6 +5,8 @@ package com.voicecyber.command.commandandmodule;
  *
  * @author Sean
  */
-public abstract   class UserCommand {
+public abstract class UserCommand {
     abstract void execute();
+    abstract  void add();
+    abstract  void  say();
 }

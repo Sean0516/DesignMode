@@ -7,11 +7,29 @@ package com.voicecyber.command.commandandmodule;
  */
 public class UserCommand1 extends UserCommand {
     private User user;
-   public UserCommand1(User user){
-       this.user=user;
-   }
+//   public UserCommand1(User user){
+//       this.user=user;
+//   }
     @Override
     void execute() {
         user.doMethod();
+    }
+
+    @Override
+    void add() {
+        user.run();
+    }
+
+    @Override
+    void say() {
+        user.say();
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }

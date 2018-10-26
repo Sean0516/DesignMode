@@ -14,4 +14,10 @@ public class UserInvoker {
     public void execute(){
         command.execute();
     }
+    public void say(){
+        command.say();
+    }
+    public void run(){
+        command.add();
+    }
 }

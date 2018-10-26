@@ -7,8 +7,8 @@ package com.voicecyber.handler;
  */
 public abstract class Handler {
     private Handler nextHandler;
-    public final String handlerMessage(String request,int level){
-        String response=null;
+    public final IExtServer handlerMessage(String request,int level){
+        IExtServer response=null;
         if (level==this.getHandlerLevel()){
              response = this.getResponse(request);
         }else {
@@ -24,6 +24,6 @@ public abstract class Handler {
         this.nextHandler=handler;
     }
     protected abstract int getHandlerLevel();
-    protected abstract String  getResponse(String request);
+    protected abstract IExtServer  getResponse(String request);
 
 }

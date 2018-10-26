@@ -12,7 +12,7 @@ public class Handler2 extends Handler {
     }
 
     @Override
-    protected String getResponse(String request) {
-        return "handler2 say:" +request;
+    protected ExtServer2 getResponse(String request) {
+        return new ExtServer2();
     }
 }
