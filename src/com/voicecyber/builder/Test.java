@@ -9,5 +9,7 @@ public class Test {
     public static void main(String[] args) {
         Director director=new Director();
         director.getProduct();
+        System.out.println("________________");
+        director.getProduct1();
     }
 }
