@@ -1,6 +1,5 @@
 package com.voicecyber.strategy;
 
-import com.voicecyber.factory.produce.Human;
 
 /**
  * Created by Sean on 2018/7/6
